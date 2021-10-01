@@ -6,5 +6,6 @@ target 'SwiftUITest2' do
   use_frameworks!
 
   # Pods for SwiftUITest2
+  pod 'Alamofire'
 
 end
