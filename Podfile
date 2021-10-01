@@ -7,5 +7,6 @@ target 'SwiftUITest2' do
 
   # Pods for SwiftUITest2
   pod 'Alamofire'
+  pod 'Kingfisher'
 
 end
