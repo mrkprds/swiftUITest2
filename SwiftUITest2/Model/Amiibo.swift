@@ -7,10 +7,12 @@
 
 import Foundation
 
-struct Amiibo: Decodable {
+struct Amiibo: Decodable, Hashable, Identifiable {
     let name: String?
     let series: String?
     let imageURL: URL?
+    let id = UUID()
+    
     
     enum CodingKeys: String, CodingKey {
         case name = "name"

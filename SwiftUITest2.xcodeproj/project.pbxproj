@@ -18,6 +18,8 @@
 		9167DF4927073C5F00E322C6 /* AmiiboViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167DF4827073C5F00E322C6 /* AmiiboViewModel.swift */; };
 		9167DF4D27073D9400E322C6 /* AmiiboServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167DF4C27073D9400E322C6 /* AmiiboServices.swift */; };
 		9167DF5427073F5800E322C6 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167DF5327073F5800E322C6 /* EndPoint.swift */; };
+		91B875BD270A0B7E00C97287 /* AmiiboImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B875BC270A0B7D00C97287 /* AmiiboImageView.swift */; };
+		91B875C0270A0E0100C97287 /* AmiiboListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B875BF270A0E0100C97287 /* AmiiboListCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		9167DF4827073C5F00E322C6 /* AmiiboViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboViewModel.swift; sourceTree = "<group>"; };
 		9167DF4C27073D9400E322C6 /* AmiiboServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboServices.swift; sourceTree = "<group>"; };
 		9167DF5327073F5800E322C6 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		91B875BC270A0B7D00C97287 /* AmiiboImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboImageView.swift; sourceTree = "<group>"; };
+		91B875BF270A0E0100C97287 /* AmiiboListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboListCellView.swift; sourceTree = "<group>"; };
 		B1C13AAE672EABA656023207 /* Pods_SwiftUITest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUITest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				9167DF2527072D9600E322C6 /* AmiiboListView.swift */,
+				91B875BC270A0B7D00C97287 /* AmiiboImageView.swift */,
+				91B875BF270A0E0100C97287 /* AmiiboListCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,10 +266,12 @@
 				9167DF42270738CB00E322C6 /* Amiibo.swift in Sources */,
 				9167DF5427073F5800E322C6 /* EndPoint.swift in Sources */,
 				9167DF4D27073D9400E322C6 /* AmiiboServices.swift in Sources */,
+				91B875BD270A0B7E00C97287 /* AmiiboImageView.swift in Sources */,
 				9167DF2627072D9600E322C6 /* AmiiboListView.swift in Sources */,
 				9167DF2427072D9600E322C6 /* SwiftUITest2App.swift in Sources */,
 				9167DF3E270738C400E322C6 /* Amiibos.swift in Sources */,
 				9167DF4927073C5F00E322C6 /* AmiiboViewModel.swift in Sources */,
+				91B875C0270A0E0100C97287 /* AmiiboListCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITest2/Preview Content\"";
+				DEVELOPMENT_TEAM = RU7S8HEUSH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITest2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -416,6 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITest2/Preview Content\"";
+				DEVELOPMENT_TEAM = RU7S8HEUSH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITest2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

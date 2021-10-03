@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Amiibos: Decodable {
+struct Amiibos: Decodable, Hashable {
     let characters: [Amiibo]
     
     enum CodingKeys: String, CodingKey {

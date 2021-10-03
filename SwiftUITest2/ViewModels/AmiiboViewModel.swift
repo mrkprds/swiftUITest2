@@ -7,11 +7,16 @@
 
 import Foundation
 
-struct AmiiboViewModel{    
+struct AmiiboViewModel: Hashable, Identifiable{
     private let amiibo: Amiibo
+    
     
     init(_ amiibo: Amiibo) {
         self.amiibo = amiibo
+    }
+    
+    var id: UUID{
+        return UUID()
     }
     
     var name: String{

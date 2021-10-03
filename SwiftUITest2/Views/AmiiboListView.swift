@@ -7,16 +7,23 @@
 
 import SwiftUI
 import Combine
+import Kingfisher
 
 struct AmiiboListView: View {
-    private let viewModel = AmiibosListViewModel()
+    @ObservedObject private var viewModel = AmiibosListViewModel()
     
     var body: some View {
-        Text("Hello, world!")
-            .onAppear{
-                viewModel.getAmiibos()
+        NavigationView{
+            
+            List(viewModel.amiibosViewModel, id: \.id){ amiiboViewModel in
+                NavigationLink(destination: AmiiboImageView(amiibo: amiiboViewModel), label: {
+                    AmiiboListCellView(amiibo: amiiboViewModel)
+                })
             }
-            .padding()
+            .navigationTitle("Amiibos List")
+        }.onAppear{
+            viewModel.getAmiibos()
+        }
     }
 }
 
